@@ -3,5 +3,5 @@
 <h1></h1>
 <img src="https://github.com/qimuya3/HMAnmRotate/blob/master/gif/gif1.png" width = "300" height = "522" alt="图片名称" align=center />
 
- ![image](https://github.com/qimuya3/HMAnmRotate/blob/master/gif/gif1.png)
+ ![image]()
 
