@@ -13,8 +13,10 @@
 		165B0A3C1EEE42D30036CD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165B0A3B1EEE42D30036CD06 /* Assets.xcassets */; };
 		165B0A3F1EEE42D30036CD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B0A3D1EEE42D30036CD06 /* LaunchScreen.storyboard */; };
 		165B0A421EEE42D30036CD06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B0A411EEE42D30036CD06 /* main.m */; };
-		165B0A4C1EEE42FB0036CD06 /* HMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B0A481EEE42FA0036CD06 /* HMLoadingView.m */; };
-		165B0A4D1EEE42FB0036CD06 /* HMColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165B0A4B1EEE42FA0036CD06 /* HMColorView.m */; };
+		168C99A31EEE467000E7E23E /* HMColorView.h in Sources */ = {isa = PBXBuildFile; fileRef = 168C99A01EEE466800E7E23E /* HMColorView.h */; };
+		168C99A41EEE467000E7E23E /* HMColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 168C99A11EEE466800E7E23E /* HMColorView.m */; };
+		168C99A51EEE467000E7E23E /* HMLoadingView.h in Sources */ = {isa = PBXBuildFile; fileRef = 168C99A21EEE466800E7E23E /* HMLoadingView.h */; };
+		168C99A61EEE467000E7E23E /* HMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 168C999F1EEE466800E7E23E /* HMLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +30,12 @@
 		165B0A3E1EEE42D30036CD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165B0A401EEE42D30036CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165B0A411EEE42D30036CD06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		165B0A481EEE42FA0036CD06 /* HMLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMLoadingView.m; path = "../../../新颖的过渡动画1/HMAnmRotate/HMLoadingView.m"; sourceTree = "<group>"; };
-		165B0A491EEE42FA0036CD06 /* HMColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMColorView.h; path = "../../../新颖的过渡动画1/HMAnmRotate/HMColorView.h"; sourceTree = "<group>"; };
-		165B0A4A1EEE42FA0036CD06 /* HMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMLoadingView.h; path = "../../../新颖的过渡动画1/HMAnmRotate/HMLoadingView.h"; sourceTree = "<group>"; };
-		165B0A4B1EEE42FA0036CD06 /* HMColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMColorView.m; path = "../../../新颖的过渡动画1/HMAnmRotate/HMColorView.m"; sourceTree = "<group>"; };
+		168C999D1EEE461A00E7E23E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		168C999E1EEE463200E7E23E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		168C999F1EEE466800E7E23E /* HMLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMLoadingView.m; sourceTree = "<group>"; };
+		168C99A01EEE466800E7E23E /* HMColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMColorView.h; sourceTree = "<group>"; };
+		168C99A11EEE466800E7E23E /* HMColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMColorView.m; sourceTree = "<group>"; };
+		168C99A21EEE466800E7E23E /* HMLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMLoadingView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			children = (
 				165B0A311EEE42D30036CD06 /* HMAnmRotate */,
 				165B0A301EEE42D30036CD06 /* Products */,
+				168C999C1EEE461A00E7E23E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,10 +69,10 @@
 		165B0A311EEE42D30036CD06 /* HMAnmRotate */ = {
 			isa = PBXGroup;
 			children = (
-				165B0A491EEE42FA0036CD06 /* HMColorView.h */,
-				165B0A4B1EEE42FA0036CD06 /* HMColorView.m */,
-				165B0A4A1EEE42FA0036CD06 /* HMLoadingView.h */,
-				165B0A481EEE42FA0036CD06 /* HMLoadingView.m */,
+				168C99A01EEE466800E7E23E /* HMColorView.h */,
+				168C99A11EEE466800E7E23E /* HMColorView.m */,
+				168C99A21EEE466800E7E23E /* HMLoadingView.h */,
+				168C999F1EEE466800E7E23E /* HMLoadingView.m */,
 				165B0A321EEE42D30036CD06 /* AppDelegate.h */,
 				165B0A331EEE42D30036CD06 /* AppDelegate.m */,
 				165B0A351EEE42D30036CD06 /* ViewController.h */,
@@ -79,6 +84,15 @@
 				165B0A411EEE42D30036CD06 /* main.m */,
 			);
 			path = HMAnmRotate;
+			sourceTree = "<group>";
+		};
+		168C999C1EEE461A00E7E23E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168C999E1EEE463200E7E23E /* CoreGraphics.framework */,
+				168C999D1EEE461A00E7E23E /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165B0A4D1EEE42FB0036CD06 /* HMColorView.m in Sources */,
-				165B0A4C1EEE42FB0036CD06 /* HMLoadingView.m in Sources */,
+				168C99A31EEE467000E7E23E /* HMColorView.h in Sources */,
+				168C99A41EEE467000E7E23E /* HMColorView.m in Sources */,
+				168C99A51EEE467000E7E23E /* HMLoadingView.h in Sources */,
+				168C99A61EEE467000E7E23E /* HMLoadingView.m in Sources */,
 				165B0A371EEE42D30036CD06 /* ViewController.m in Sources */,
 				165B0A421EEE42D30036CD06 /* main.m in Sources */,
 				165B0A341EEE42D30036CD06 /* AppDelegate.m in Sources */,
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 453WKA5GS8;
 				INFOPLIST_FILE = HMAnmRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qmy3.HMAnmRotate.HMAnmRotate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 453WKA5GS8;
 				INFOPLIST_FILE = HMAnmRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qmy3.HMAnmRotate.HMAnmRotate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,6 +344,7 @@
 				165B0A471EEE42D30036CD06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
